@@ -8,3 +8,10 @@ def batch_badge_creator(attendees)
   attendees.each {|n| badges << "Hello, my name is #{n}."}
   badges
 end
+
+def assign_rooms(attendees)
+  room_assignments = []
+  attendees.collect.each_with_index do |n, index|
+    "Hello, #{n}! You'll be assigned to room #{index + 1}!"
+  end
+end
