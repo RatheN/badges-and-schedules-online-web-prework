@@ -8,6 +8,3 @@ def batch_badge_creator(attendees)
   attendees.each {|n| badges << "Hello, my name is #{n}."}
   badges
 end
-
-def assign_rooms
-  
